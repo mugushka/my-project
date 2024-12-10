@@ -1,0 +1,92 @@
+/*ЗАДАНИЕ 1 
+let price = 100000
+let range = prompt('Enter period')
+if(range === 'day'){
+    alert('${price} in day')
+}else if (range === 'week'){
+    alert('${price*7}in week')
+}else if(range==='month'){
+    alert('${price*30}in month')
+}
+задача2
+let temp = prompt('Enter temp')
+let weather= prompt('Enter weatehr')
+let activity;
+temp = Number(temp)
+if(temp >=25 && weather ==='clear'){
+    activity = "golf"
+    alert(`can play ${activity}`)
+}
+
+                  
+задача3
+let a = 2;
+let b = 0;
+let sign = "/";
+
+if (sign === "+") {
+  console.log(a + b);
+} else if (sign === "-") {
+  console.log(a - b);
+} else if (sign === "*") {
+  console.log(a * b);
+} else if (sign === "/") {
+  if (b === 0) {
+    console.log("Делить на 0 нельзя!");
+  } else {
+    console.log(a / b);
+  }
+}
+задача4
+let str = "hello";
+let result = Number.isInteger(Math.sqrt(str.length)) ? 1 : 0;
+console.log(result);
+
+let word = "Arnold"
+let result= Array.from(word).filter(char => char.toLowerCase()!=='a'&& char.toLowerCase()!=='o').join('')
+console.log(result)
+
+
+let num = 1
+while(num=20){
+    if (num%3===0){
+        console.log (num)
+    }
+}
+
+
+let res ='';
+for (let i=1; i <= 5; i++){
+    res += 1;
+    console.log(res);
+}
+
+
+let a = 4
+let sum = 1
+for  ( let i=1; i<=a; i++){
+   sum *=i
+    console.log (sum);
+}
+
+ let string = "radar"
+ let string1=""
+ for (let i=str.length - 1; i>= 0;i--) {
+    str1+= str[1]
+ }
+
+console.log(str==str1 ? "YES":'No')
+
+function nefor(num1, num2) {
+  return num1 * num2;
+}
+
+const result = nefor(5, 3);
+console.log(result); 
+*/ 
+const lang = prompt("dsgknv");
+if (lang === 'lava fjsdjn'){
+  console.log("КОнечно он лучший чзык")
+}else{
+  console.log("Вы уверены");
+}
